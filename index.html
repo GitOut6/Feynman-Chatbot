@@ -6,7 +6,26 @@
     <title>Feynman Chatbot</title>
 </head>
 <body>
-    <h1>'Sup globe!</h1>
-    <p>Something is coming... Something usefull 😉</p>
+    <!-- Main container -->
+    <div id="app">
+        <h1>Feynman Chatbot</h1>
+        
+        <!-- Age selector -->
+        <select id="botAge">
+            <option value="5">5 years old</option>
+            <option value="16">16 years old</option>
+            <option value="25">25 years old</option>
+            <option value="40">40 years old</option>
+        </select>
+        
+        <!-- Chat messages display area -->
+        <div id="chatBox">
+            <p>Explain something to me...</p>
+        </div>
+        
+        <!-- User input area -->
+        <input type="text" id="userInput" placeholder="Type your explanation...">
+        <button id="sendButton">Send</button>
+    </div>
 </body>
 </html>
