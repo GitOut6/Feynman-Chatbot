@@ -10,26 +10,23 @@
     <title>Feynman Chatbot</title>
 </head>
 <body>
-    <!-- Main container -->
-    <div id="app">
-        <h1>Feynman Chatbot</h1>
-        
-        <!-- Age selector -->
-        <select id="botAge">
-            <option value="5">Elementary (Age: 5)</option>
-            <option value="16">High School (Age: 16)</option>
-            <option value="25">Undergraduate (Age: 25)</option>
-            <option value="40">Professer (Age: 40)</option>
+    <div id = "app">
+        <h1><strong>Welcome!</strong></h1>
+        <h3>To the <em>Feynmans</em>!</h3>
+
+        <select>
+            <option id = "pip">Pip</option>
+            <option id = "atom">Atom</option>
+            <option id = "Nexus">Nexus</option>
+            <option id = "Sage">Sage</option>
         </select>
-        
-        <!-- Chat messages display area -->
-        <div id="chatBox">
-            <p>Explain something to me...</p>
+
+        <div id = "chatbot">
+            <p>Explain something to me</p>
         </div>
         
-        <!-- User input area -->
-        <input type="text" id="userInput" placeholder="Type your explanation...">
-        <button id="sendButton">Send</button>
+        <input type="text"id="userInput"placeholder="Type your explanation here">
+        <button id="send">Send</button>
     </div>
 </body>
 </html>
